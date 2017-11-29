@@ -1,0 +1,216 @@
+.navbar-wagon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar-wagon-right {
+	padding: 0 9.9em;
+	display: inline;
+	align-items: center;
+	justify-content: space-between;
+	font: 0.9em "Avenir";
+}
+.navbar-wagon-item {
+	cursor: pointer;
+	padding: 0 20px; 
+}
+.navbar-wagon-link {
+	color:#000000;
+	font-size: 16px;
+	text-decoration: none; 
+}
+.navbar-wagon-link:hover {
+	color:black;
+	text-decoration: none;
+}
+.navbar-wagon-dropdown-menu {
+	margin-top: 15px;
+	box-shadow: 1px 1px 4px #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+	transition : color 0.3s ease;
+	font-weight: lighter !important;
+	color: #999999 !important;
+	font-size: 15px !important; 
+	line-height: 22px !important;
+	padding: 10px 20px;
+	z-index: 100000;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+	background: transparent !important;
+	color: black !important;
+	z-index: 100000;
+}
+.navbar-wagon-dropdown-menu:before {
+	content:' ';
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	right: 10px;
+	top: -6px;
+	background-color: white;
+	transform: rotate(45deg);
+	border-left: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	z-index: 100000;
+}
+.banner { 
+	background-image: url(Formation3.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	opacity:0.6;
+	padding: 50px 100px; 
+	font-family: avenir, monospace;
+ }
+.banner h1 {
+ 	text-align: center;
+ 	opacity: 1;
+ 	color: black;
+ 	margin: 40px 0px;
+ 	font: 3.9em "Avenir", monospace;
+ }
+.banner p {
+	color: #000000;
+	opacity: 1;
+	font: 1.5em "Avenir", monospace;
+	margin-bottom: 100px;
+}
+.button-lg {
+ 	background: rgba(255,255,255,0);
+ 	opacity: 1;
+ 	border-color: black;
+ 	border-style: groove;
+ 	color: #000000;
+ 	padding: 12px 24px;
+ 	text-decoration: none;
+ 	font: 1.4em "Avenir", monospace;
+ }
+ .container {
+ 	background-color: #DFF1F7; 
+ 	text-align: center;
+ 	font: 1.0em "Avenir", monospace;
+ }
+ .title {
+ 	margin-top: 50px;
+ 	margin-bottom: 30px;
+ }
+.formation372 {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(pelleteuse.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation372:hover {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(pelleteuse1.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation386 {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(nacelle.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation386:hover {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(nacelle1.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation389 {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(chariot.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation389:hover {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(chariot1.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation390 {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(grue.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.formation390:hover {
+	margin:20px 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: url(grue1.jpg);
+	background-size: cover;
+	object-fit: cover;
+}
+.container {
+	background-color: #DFF1F7;
+}
+
+.newsletter {
+	background-color: #DFF1F7;
+	margin-top: 60px;
+ 	margin-bottom: 50px;
+  	text-align: center;
+  	right: 10px;
+  	font: 1.2em "Avenir" 
+}
+.newsletter-form {
+  	display: flex;
+}
+h1 {
+	font: 3.0em "Avenir";
+	text-align: center;
+}
+iframe {
+	margin-left: 135px;
+}
+.footer {
+  background: #DFF1F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
